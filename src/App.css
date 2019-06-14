@@ -62,3 +62,19 @@ li a:hover {
 .right{
   float:right
 }
+input[type=text] {
+  width: 50%;
+  padding: 12px 12px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+}
+
+input:focus {
+  background-color: pink;
+}
+label{
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  margin-left: 100px;
+}
