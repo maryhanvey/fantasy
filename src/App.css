@@ -35,7 +35,7 @@
 body {
   background-color: lightblue;
 }
-ul {
+ul.inApp {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -43,7 +43,7 @@ ul {
   background-color: #333;
 }
 
-li {
+li.header {
   float: left;
 }
 
@@ -78,3 +78,21 @@ label{
   display: inline-block;
   margin-left: 100px;
 }
+
+table.rulesList {
+  border:2px solid cornflowerblue;
+  border-collapse: collapse;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+td.rule{
+  border:1px solid cornflowerblue;
+  border-collapse: collapse;
+  padding: 8px;
+
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+

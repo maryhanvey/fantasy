@@ -3,12 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-function Rules() {
+function Team() {
   return (
     <div>
       <body>
       <div>
-        <table class="rulesList">
+        <h1>blank's team</h1>
+          <table class="rulesList">
           <tr><td class="rule">congrats ur mvp won HOH! you get 5 big ones</td></tr>
           <tr><td class="rule">game changer! your veto winner can shake shit up, 4 for u glen coco</td></tr>
           <tr><td class="rule">on the block bitch, sux to sux, -2 pts</td></tr>
@@ -26,4 +27,4 @@ function Rules() {
   );
 }
 
-export default Rules;
+export default Team;
